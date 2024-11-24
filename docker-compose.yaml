@@ -1,0 +1,9 @@
+services:
+  server:
+    platform: linux/amd64
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/app/.
