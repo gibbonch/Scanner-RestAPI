@@ -26,10 +26,12 @@ curl -X POST http://localhost:3000/scan \
 -d '{"network": "192.168.0.0/24", "verbose": false}'
 ```
 ### Пример ответа:
+```
 [
     "[#] Available: 25-11-2024 13:50:27 - 192.168.0.1 (response time 0.0731s)",
     "[#] Available: 25-11-2024 13:50:27 - 192.168.0.101 (response time 0.0218s)"
 ]
+```
 
 ## 2. /sendhttp
 **Отправляет HTTP-запрос по указанному адресу.**
